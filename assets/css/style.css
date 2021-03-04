@@ -8,29 +8,30 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: green;
-    padding: 0 15px;
+    background: #92a892;
+    color: #0d520d;
+    padding: 0 30px;
     min-height: 7vh;
 }
 
 nav h3,
-nav ul {
+.nav-links {
     margin: 0;
 }
 
-nav ul {
+.nav-links {
     width: 30%;
     display: flex;
     justify-content: space-between;
 }
 
-nav li {
+.nav-links li {
     list-style: none;
 }
 
-nav a {
+.nav-links a {
     text-decoration: none;
-    color: #ffffff;
+    color: #0d520d;
     font-weight: bold;
 }
 
@@ -39,5 +40,19 @@ nav a {
     align-items: center;
 }
 
+.burguer {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div {
+    width: 20px;
+    height: 3px;
+    background: #0d520d;
+    margin: 4px;
+}
 
 
+@media screen and (max-width: 992px) {
+    
+}
