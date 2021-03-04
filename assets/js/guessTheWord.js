@@ -31,11 +31,19 @@ let possibleOptions = [
     ["Ireland10", "A famous country for St. P-day"], //10th option
 ];
 
+// Check if key is pressed, A-Z and a-z, as game will be based on key-presses
+function isAlpha(ch) {
+    return /^[A-Z]$/i.test(ch);
+}
+
+// Found help for reg-ex here:
+// https://stackoverflow.com/questions/40120915/javascript-function-that-returns-true-if-a-letter
+
 // get a new word
 // using math floor, to get a random word/hint from the array
 let randomIndex = Math.floor(Math.random() * possibleOptions.length);
 
-wordToMatch = possibleOptions[randomIndex][0].toUpperCase()
-console.log(wordToMatch); // to check if it works, will remove soon
+wordToGuess = possibleOptions[randomIndex][0].toUpperCase()
+console.log(wordToGuess); // to check if it works, will remove soon
 wordHint = possibleOptions[randomIndex][1].toUpperCase()
 console.log(wordHint); // to check if it works, will remove soon
