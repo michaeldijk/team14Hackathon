@@ -25,4 +25,8 @@ let possibleOptions = [
     ["Ireland3", "A famous country for St. P-day"], //4nd option
     ["Ireland4", "A famous country for St. P-day"], //5nd option
     ["Ireland5", "A famous country for St. P-day"], //6nd option
+    ["Ireland5", "A famous country for St. P-day"], //7nd option
+    ["Ireland5", "A famous country for St. P-day"], //8nd option
+    ["Ireland5", "A famous country for St. P-day"], //9nd option
+    ["Ireland5", "A famous country for St. P-day"], //10th option
 ];
