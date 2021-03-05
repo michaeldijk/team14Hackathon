@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oi&family=Open+Sans:wght@0,300;0,700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 /* About Section */
 * {
@@ -59,7 +59,7 @@ nav h3,
 .burger div {
     width: 20px;
     height: 3px;
-    background: #4C9B24;
+    background: #000;
     margin: 4px;
 }
 
@@ -104,6 +104,7 @@ nav h3,
     position: relative;
     width: 100%;
     z-index: 1000 !important;
+    height: 100vh;
     padding: 5rem 0;
 }
 #fixed-wrap {
@@ -178,11 +179,7 @@ nav h3,
 .copyright p {
     color: #fff;
 }
-
-    
-    
-    
-    
+ 
 /*---Bootsrap Mobil Gutter Fix---*/
 
 .row, .container-fluid {
@@ -281,7 +278,7 @@ nav h3,
 .content-container .content-box .text p span {
     font-weight: 600;
     font-size: 1.2em;
-    }
+}
 
 @media screen and (max-width: 992px) {
     body {
