@@ -95,5 +95,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.content-container .content-box .text p span {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
 /* About Section End */
 
