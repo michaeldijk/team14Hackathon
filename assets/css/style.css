@@ -8,8 +8,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #92a892;
-    color: #0d520d;
+    background: #4C9B24;
+    color: #fff;
     padding: 0 30px;
     min-height: 7vh;
 }
@@ -31,7 +31,7 @@ nav h3,
 
 .nav-links a {
     text-decoration: none;
-    color: #0d520d;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -48,8 +48,35 @@ nav h3,
 .burger div {
     width: 20px;
     height: 3px;
-    background: #0d520d;
+    background: #4C9B24;
     margin: 4px;
+}
+
+.footer {
+    background: #4C9B24;
+    color: #fff;
+}
+.footer-nav-item{
+    list-style-type: none;
+    padding-bottom: 10px; 
+}
+.footer-nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav-link:hover {
+    color: #214410;
+}
+
+.copyright a {
+    text-transform: none;
+    color: #fff;
+}
+
+.copyright p {
+    color: #fff;
 }
 
 
@@ -63,7 +90,7 @@ nav h3,
         right: 0;
         height: 93vh;
         top: 7vh;
-        background: #92a892;
+        background: #4C9B24;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -80,4 +107,12 @@ nav h3,
 
 .nav-active {
     transform: translateX(0);
+}
+
+
+
+/*---Bootsrap Mobil Gutter Fix---*/
+.row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
