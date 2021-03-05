@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Navigation Bar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -12,6 +14,11 @@ nav {
     color: #0d520d;
     padding: 0 30px;
     min-height: 7vh;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 1rem;
 }
 
 nav h3,
@@ -50,6 +57,14 @@ nav h3,
     height: 3px;
     background: #0d520d;
     margin: 4px;
+}
+
+/* Intro Section */
+.intro {
+    background: url("../images/green-beer.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
 }
 
 
