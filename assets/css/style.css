@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Open+Sans:wght@0,300;0,700&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 /* About Section */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 
 * {
     margin: 0;
@@ -14,8 +16,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #92a892;
-    color: #0d520d;
+    background: #4C9B24;
+    color: #fff;
     padding: 0 30px;
     min-height: 7vh;
 }
@@ -42,7 +44,7 @@ nav h3,
 
 .nav-links a {
     text-decoration: none;
-    color: #0d520d;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -59,9 +61,124 @@ nav h3,
 .burger div {
     width: 20px;
     height: 3px;
-    background: #0d520d;
+    background: #4C9B24;
     margin: 4px;
 }
+
+
+#back-to-top-btn {
+    background-image: url("../images/clover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+  #back-to-top-btn:hover, #back-to-top-btn:focus {
+    color: #14290a;  
+  }
+
+.fixed-bg-text {
+    padding-top: 100px;
+}
+.fixed-bg-text h1 {
+    font-family: 'Oi', cursive;
+    letter-spacing: .3rem;
+}
+
+.fixed-bg-text h2 {
+    padding-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+#fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000 !important;
+    padding: 5rem 0;
+}
+#fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+#fixed {
+    background-image: url("../images/stpatrick\'s-day-drinks.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+#fixed:before {
+    content: "";
+    background: rgba(0,0,0,.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;  
+}
+
+.hero-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hero-text-header p {
+    color: #14290a;
+}
+
+.hero-text-header h1 {
+    color: #14290a;
+}
+
+.footer {
+    background: #4C9B24;
+    color: #fff;
+}
+.footer-nav-item{
+    list-style-type: none;
+    padding-bottom: 10px; 
+}
+.footer-nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-nav-link:hover {
+    color: #214410;
+}
+
+.copyright a {
+    text-transform: none;
+    color: #fff;
+}
+
+.copyright p {
+    color: #fff;
 
 /* Intro Section */
 .intro {
@@ -69,6 +186,7 @@ nav h3,
     background-size: cover;
     background-position: center;
     height: 93vh;
+
 }
 
 
@@ -82,7 +200,7 @@ nav h3,
         right: 0;
         height: 93vh;
         top: 7vh;
-        background: #92a892;
+        background: #4C9B24;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -100,6 +218,16 @@ nav h3,
 .nav-active {
     transform: translateX(0);
 }
+
+
+
+
+/*---Bootsrap Mobil Gutter Fix---*/
+.row, .container-fluid {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+=======
 .about {
     width: 100%;
     min-height: 100vh;
@@ -193,4 +321,3 @@ nav h3,
 }
 
 /* About Section End */
-
