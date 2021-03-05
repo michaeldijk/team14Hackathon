@@ -78,7 +78,7 @@
             if (wordToUseForMatch[i] === " ") {
                 wordToGuess.push(" ");
             } else {
-                wordToGuess.push("_");
+                wordToGuess.push("_ ");
             }
         }
 
