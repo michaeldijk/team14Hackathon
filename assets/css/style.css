@@ -53,6 +53,29 @@ nav h3,
     margin: 4px;
 }
 
+#back-to-top-btn {
+    background-image: url("../images/clover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+  }
+  #back-to-top-btn:hover, #back-to-top-btn:focus {
+    color: #14290a;  
+  }
+
 .fixed-bg-text {
     padding-top: 100px;
 }
