@@ -10,10 +10,14 @@
     width: 100%;
     min-height: 100vh;
     transition: 0.5s;
+    background: linear-gradient(-30deg, #fde1bc 50%, #0080005c 50%);
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .about .about-heading {
     padding: 5px;
+    padding-bottom: 40px;
 }
 
 .about .about-heading h2 {
