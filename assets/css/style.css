@@ -303,6 +303,15 @@ nav h3,
     .burger {
         display: block;
     }
+
+    #carouselExampleFade {
+            margin: 4rem auto 0;
+            width: 70%;
+        }
+        
+        .carousel-inner {
+            max-height: 50rem !important;
+        }
 }
     
 .nav-active {
