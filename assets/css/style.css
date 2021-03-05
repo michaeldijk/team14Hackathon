@@ -105,6 +105,19 @@ nav h3,
     right: 0;  
 }
 
+.hero-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hero-text-header p {
+    color: #14290a;
+}
+
+.hero-text-header h1 {
+    color: #14290a;
+}
+
 .footer {
     background: #4C9B24;
     color: #fff;
