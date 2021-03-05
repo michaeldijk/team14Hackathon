@@ -65,5 +65,28 @@
     transform: scale(1.1);
 }
 
+.content-container .content-box .title {
+    border-bottom: 1px solid #3c3a3a;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+
+.content-container .content-box .title h3 {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #3c3a3a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-container .content-box .text {
+    padding-top: 5px;
+}
+
+.content-container .content-box .text p {
+    font-family: 'Poppins', sans-serif;
+}
 
 
