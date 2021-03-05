@@ -11,6 +11,13 @@
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Hackathon Team #14</title>
+
+    <style>
+        #carouselExampleFade {
+            margin: 0 auto;
+            width: 70%;
+        }
+    </style>
 </head>
 
 <body>
@@ -43,7 +50,43 @@
     </header>
 
     <section>
-        <!-- Main section comes here -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/st-patricks-day-parade.jpg" class="d-block w-100"
+                        alt="St Patrick's Parade">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/st-patricks-day-river.jpg" class="d-block w-100"
+                        alt="St Patrick's Green River">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/st-patricks-day-guys.jpg" class="d-block w-100" alt="St Patrick's Guys">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/st-patricks-day-sydney.jpg" class="d-block w-100"
+                        alt="St Patrick's Sydney">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/st-patricks-day-montserrat.jpg" class="d-block w-100"
+                        alt="St Patrick's Montserrat">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/st-patricks-day-guinness.jpg" class="d-block w-100"
+                        alt="St Patrick's Guinness">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
     <!-- JS game start -->
