@@ -46,9 +46,56 @@
         <!-- Main section comes here -->
     </section>
 
+    <!-- JS game start -->
+    <section>
+        <div class="container-fuid">
+            <div class="row bg-gradient align-items-center justify-content-center">
+                <div class="col-10 bg-primary">
+                    <div class="row">
+                        <!-- Title column game start -->
+                        <div class="col-12 bg-secondary">
+                            <h1>Guess the word!</h1>
+                        </div>
+                        <!-- Title column game end -->
+                        <!-- Win column game start -->
+                        <div class="col-12 col-md-6 bg-success">
+                            <h3>Wins: <span id="totalWins">placeholder</span></h3>
+                        </div>
+                        <!-- Win column game end -->
+                        <!-- Guesses column game start -->
+                        <div class="col-12 col-md-6 bg-white">
+                            <h3>Guesses remaining: <span id="remainingGuesses">placeholder</span></h3>
+                        </div>
+                        <!-- Guesses column game end -->
+                        <!-- Hint column game start -->
+                        <div class="col-12 bg-gradient">
+                            <h3>Hint: <span id="wordHint">placeholder</span></h3>
+                        </div>
+                        <!-- Hint column game end -->
+                        <!-- Word column game start -->
+                        <div class="col-12 bg-info">
+                            <h3><span id="currentWord">Word comes here</span></h3>
+                        </div>
+                        <!-- Word column game end -->
+                        <!-- Letters column game start -->
+                        <div class="col-12 bg-primary">
+                            <h3>Letters Guessed: <span id="guessedLetters">placeholder</span></h3>
+                        </div>
+                        <!-- Letters column game end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- JS game stop -->
     <footer>
         <!-- Footer comes here -->
     </footer>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
+        integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
 
     <!-- Bootstraps scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
@@ -57,8 +104,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
-        <!-- Auto hide script for menu -->
+
+    <!-- Auto hide script for menu -->
     <script src="assets/js/hideNavscript.js"></script>
+    
+    <!-- Guess the word script link -->
+    <script src="assets/js/guessTheWord.js"></script>
 </body>
 
 </html>
