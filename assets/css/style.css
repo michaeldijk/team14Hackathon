@@ -154,8 +154,11 @@ nav h3,
 }
 
 .hero-text {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    /* Removed margins, and added padding, so that we can colour the background with a div, and not have white space 
+    Michael */
+    padding: 100px 0 100px 0;
 }
 
 .hero-text-header p {
@@ -211,9 +214,13 @@ nav h3,
 
 /*---Bootsrap Mobil Gutter Fix---*/
 
+/* Added padding to this, so that the container does not have any
+Michael */
 .row, .container-fluid {
     margin-left: 0px !important;
     margin-right: 0px !important;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .about {
