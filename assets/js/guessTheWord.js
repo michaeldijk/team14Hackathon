@@ -21,16 +21,23 @@
     // Possible options and hint variable
     let possibleOptions = [
         ["leprechaun", "a little guy"], // 1st option
-        ["Ireland1", "A famous country for St. P-day"], //2nd option
-        ["Ireland2", "A famous country for St. P-day"], //3nd option
-        ["Ireland3", "A famous country for St. P-day"], //4nd option
-        ["Ireland4", "A famous country for St. P-day"], //5nd option
-        ["Ireland6", "A famous country for St. P-day"], //6nd option
-        ["Ireland7", "A famous country for St. P-day"], //7nd option
-        ["Ireland8", "A famous country for St. P-day"], //8nd option
-        ["Ireland9", "A famous country for St. P-day"], //9nd option
-        ["Ireland10", "A famous country for St. P-day"], //10th option
-    ]; // done
+        ["Guinness", "A famous Beer Brand"], //2nd option
+        ["Opera house", "What building of Sydney do you see?"], //3nd option
+        ["Ireland", "A famous country for St. P-day"], //4nd option
+        ["Saint Paddys Day", "Short name for St. P-day"], //5nd option
+        ["Chicago", "Where is the river green?"], //6nd option
+        ["march", "Which month is St. P-day celebrated..."], //7nd option
+        ["Roman Britain", "Where was St. Patrick born?"], //8nd option
+        ["Christianity", "What arrival was celebrated?"], //9nd option
+        ["Irish", "Which heritage and culture is celebrated?"], //10th option
+        ["Green", "What's the Dress Code?"], //11th option
+        ["shamrock", "What is the leaf/sprig called?"], //12th option
+        ["shamrock", "What is the leaf/sprig called?"], //13th option
+        ["boston", "Where was the first parade ever? A US city..."], //14th option
+        ["snakes", "What did St. Patrick banished from Ireland?"], //15th option
+        ["Cream", "What would you pour on top of an Irish coffee?"], //16th option
+        ["Mountains", "What are the Twelve Bens?"], //17th option
+    ];
 
     resetGame();
 
@@ -74,7 +81,7 @@
         wordToGuess = [];
 
         // Reset the guessed word
-        for (var i = 0, j = wordToUseForMatch.length; i < j; i++) {
+        for (let i = 0, j = wordToUseForMatch.length; i < j; i++) {
             if (wordToUseForMatch[i] === " ") {
                 wordToGuess.push(" ");
             } else {
@@ -86,17 +93,17 @@
         updateHtmlDisplay();
     }
 
-    // Game Functions
-    // Check if letter is in word & process, play sound, either positive or negative.
+    // Game Functions come here
+    // Check if letter is in word & process, play sound, either positive or negative sound depending on the answer given
     function checkForLetter(letter) {
-        var foundLetter = false;
-        var correctSound = document.createElement("audio");
-        var incorrectSound = document.createElement("audio");
+        let foundLetter = false;
+        let correctSound = document.createElement("audio");
+        let incorrectSound = document.createElement("audio");
         correctSound.setAttribute("src", "assets/sounds/positive.wav");
         incorrectSound.setAttribute("src", "assets/sounds/negative.wav");
 
         // Search string for letter
-        for (var i = 0, j = wordToUseForMatch.length; i < j; i++) {
+        for (let i = 0, j = wordToUseForMatch.length; i < j; i++) {
             if (letter === wordToUseForMatch[i]) {
                 wordToGuess[i] = letter;
                 foundLetter = true;
