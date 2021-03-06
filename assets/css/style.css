@@ -34,7 +34,6 @@ nav {
 nav h3,
 .nav-links {
     margin: 0;
-    cursor: pointer;
 }
 
 .nav-links {
@@ -48,9 +47,11 @@ nav h3,
     list-style: none;
 }
 
-.nav-links a {
+.nav-links a,
+.logo a {
     text-decoration: none;
     color: #3c3a3a;
+    cursor: pointer;
 }
 
 .logo {
