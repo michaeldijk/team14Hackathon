@@ -319,9 +319,30 @@ Michael */
     background: linear-gradient(330deg, #fde1bc 50%, #0080005c 50%);
 }
 
+@media screen and (min-width: 1400px) {
+    .about {
+        width: 100%;
+        transition: 0.5s;
+        background: linear-gradient(-20deg, #fde1bc 50%, #0080005c 50%);
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #gallery {
+        background: linear-gradient(160deg, #fde1bc 50%, #0080005c 50%);
+    }
+
+
+    #game {
+        background: linear-gradient(340deg, #fde1bc 50%, #0080005c 50%);
+    }
+
+}
+
 @media screen and (max-width: 992px) {
-    body {
+    body,html {
         overflow-x: hidden;
+        position: relative;
     }
 
     .nav-links {
