@@ -63,7 +63,6 @@ nav h3,
     margin: 4px;
 }
 
-
 #back-to-top-btn {
     background-image: url("../images/clover.png");
     background-repeat: no-repeat;
@@ -82,14 +81,16 @@ nav h3,
     border-radius: 50%;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-  }
-  #back-to-top-btn:hover, #back-to-top-btn:focus {
+}
+
+#back-to-top-btn:hover, #back-to-top-btn:focus {
     color: #14290a;  
-  }
+}
 
 .fixed-bg-text {
     padding-top: 100px;
 }
+
 .fixed-bg-text h1 {
     font-family: 'Oi', cursive;
     letter-spacing: .3rem;
@@ -100,6 +101,7 @@ nav h3,
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 300;
 }
+
 #fixed-background {
     position: relative;
     width: 100%;
@@ -107,6 +109,7 @@ nav h3,
     height: 100vh;
     padding: 5rem 0;
 }
+
 #fixed-wrap {
     clip: rect(0, auto, auto, 0);
     position: absolute;
@@ -116,6 +119,7 @@ nav h3,
     height: 100%;
     z-index: -999 !important;
 }
+
 #fixed {
     background-image: url("../images/stpatrick\'s-day-drinks.jpg");
     position: fixed;
@@ -153,14 +157,26 @@ nav h3,
     color: #14290a;
 }
 
+/* Carousel Section */
+#carouselExampleFade {
+        margin: 4rem auto 0;
+        width: 70%;
+    }
+    
+    .carousel-inner {
+        max-height: 50rem !important;
+    }
+
 .footer {
     background: #4C9B24;
     color: #fff;
 }
+
 .footer-nav-item{
     list-style-type: none;
     padding-bottom: 10px; 
 }
+
 .footer-nav-link {
     text-transform: uppercase;
     color: #fff;
@@ -179,14 +195,13 @@ nav h3,
 .copyright p {
     color: #fff;
 }
- 
+
 /*---Bootsrap Mobil Gutter Fix---*/
 
 .row, .container-fluid {
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
-
 
 .about {
     width: 100%;
@@ -257,7 +272,6 @@ nav h3,
     padding-top: 5px;
 }
 
-
 .content-container .content-box .title h3 {
     text-transform: uppercase;
     font-size: 1.3em;
@@ -303,6 +317,12 @@ nav h3,
     .burger {
         display: block;
     }
+
+    #carouselExampleFade {
+        margin: 0 auto;
+        width: 100%;
+    }
+    
 }
     
 .nav-active {
