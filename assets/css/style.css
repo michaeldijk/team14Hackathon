@@ -167,8 +167,6 @@ nav h3,
 
 /* Carousel Section */
 #gallery {
-    display: flex;
-    align-items: center;
     background: linear-gradient(150deg, #fde1bc 50%, #0080005c 50%);
 }
 
@@ -230,7 +228,7 @@ nav h3,
     padding-bottom: 40px;
 }
 
-.about .about-heading h2 {
+.heading {
     font-family: 'Poppins', sans-serif;
     font-size: 3em;
     letter-spacing: 2px;
@@ -238,7 +236,7 @@ nav h3,
     color: #3c3a3a;
 }
 
-.about .about-heading h2 span {
+.heading span {
     font-weight: 700;
     font-size: 1.6em;
     color: #e89356;;
@@ -305,6 +303,12 @@ nav h3,
 .content-container .content-box .text p span {
     font-weight: 600;
     font-size: 1.2em;
+}
+
+/* Game */
+
+#game {
+    background: linear-gradient(330deg, #fde1bc 50%, #0080005c 50%);
 }
 
 @media screen and (max-width: 992px) {
