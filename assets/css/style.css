@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Oi&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-/* About Section */
+/* General */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+section {
+    min-height: 100vh;
 }
 
 /* Navigation Bar */
@@ -162,14 +166,20 @@ nav h3,
 }
 
 /* Carousel Section */
+#gallery {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(150deg, #fde1bc 50%, #0080005c 50%);
+}
+
 #carouselExampleFade {
-        margin: 4rem auto 0;
-        width: 70%;
-    }
+    margin: 0 auto;
+    width: 70%;
+}
     
-    .carousel-inner {
-        max-height: 50rem !important;
-    }
+.carousel-inner {
+    max-height: 50rem !important;
+}
 
 .footer {
     background: #4C9B24;
@@ -209,7 +219,6 @@ nav h3,
 
 .about {
     width: 100%;
-    min-height: 100vh;
     transition: 0.5s;
     background: linear-gradient(-30deg, #fde1bc 50%, #0080005c 50%);
     padding-top: 40px;
