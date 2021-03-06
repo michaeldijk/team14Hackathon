@@ -1,45 +1,73 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![image](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/logo.png)
 
-Welcome michaeldijk,
+# [The Blarney Bunch](https://michaeldijk.github.io/team14Hackathon/)
+This is a website for Hackathon Mar 2021 in [Code Institute](https://codeinstitute.net/) created by **Team14Hackathon**.<br>
+The website is available [HERE](https://michaeldijk.github.io/team14Hackathon/).
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+<!--- Mock up image goes here --->
+![image](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/mock-up.png)
 
-## Gitpod Reminders
+## USERS
+St Patrick’s Day in 2021 is very different to other years. We are not allowed to celebrate the day going to see a parade, gathering with families and friends so we create this website to help them to celebrate the day and to give them the atmosphere of the special day.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## OWNER
+Member of Team14Hackathon (Michael Dijk, Henrique Peroni, Stefan D Yordanov, Szilvia Gombarovics, Tashi Sk, Toto Tanaka). Our goal is to create a website that gives users a same feeling about St Patrick’s Day as every other years.
 
-`python3 -m http.server`
+## UX 5 PLANES
+### Strategy Plane
+Users are people who would like to celebrate St Patrick Day same year as usual but without going to see a parade, or gathering with families and friends. The main image of the website gives a feeling of St Patrick’s Day to users, then, there is a section to explain about St Patrick’s Day. There are some images of St Patrick’s Day that show celebrations in different countries. There is a fun game at the end of the website to entertain users.
 
-A blue button should appear to click: *Make Public*,
+### Scope Plane
+Features to be included in this project are;
+* Main image to give users a feeling about St Patrick’s Day
+* About Section to give / remind users what St Patrick Day is like 
+* Gallery Section to show users images of St Patrick’s Day in other countries
+* Game Section to entertain users
 
-Another blue button should appear to click: *Open Browser*.
+### Structure Plane
+The website consists of 4 sections on a page
+Home Section (header) with a logo, a navigation bar, main image with a welcome message<br>
+About Section explains what St Patrick’s Day is like<br>
+Gallery Section shows images of St Patricks Day in other countries<br>
+Game Section entertains users
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Skeleton Plane
+Here are the wireframes of mobile and desktop sizes.
+* [Wireframe: Mobile Size](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/st-patricks-day-mob.png)
+* [Wireframe: Desktop Size](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/st-patricks-day-desktop.png)
 
-A blue button should appear to click: *Make Public*,
+### Surface Plane
+A colour of Irish flag (Green, White, Gold) is imaged. Green is used in Header & Footer, and light green and light gold are used on About section to stand out a bit. Then, white is used background on Gallery and Game sections to have the balance of images.
 
-Another blue button should appear to click: *Open Browser*.
+## FEATURES
+* Created with **HTML5**, **CSS3** and **JavaScript**
+* It is a page website that consists of 4 sections (Home, About, Gallery, Game)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## TECHNOLOGIES USED
+* [HTML5](https://en.wikipedia.org/wiki/HTML) for markup
+* [CSS3](https://en.wikipedia.org/wiki/CSS) for style
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) for interaction
+* [Gitpod](https://www.gitpod.io/) as Integrated Development Environment (IDE)
+* [Git](https://git-scm.com/) for local version control, keeping the files and documents
+* [GitHub](https://github.com/) for online version control, keeping the files, documents and deploying the website
 
-## Updates Since The Instructional Video
+## TESTING
+<!--- If we have time --->
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## VERSION CONTROL
+[Git](https://git-scm.com/) as a local repository and [GitHub](https://github.com/) as a remote repository are used for the project.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## DEPLOYMENT
+The website is deployed in [GitHub](https://github.com/) as it can host open-source projects of HTML, CSS, and JavaScript.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## ACKNOWLEDGEMENTS
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## COMMENT FROM EACH MEMBER
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+* Michael Dijk: 
+* Henrique Peroni:
+* Stefan D Yordanov:
+* Szilvia Gombarovics:
+* Tashi Sk:
+* Toto Tanaka:
