@@ -291,7 +291,7 @@ Michael */
     padding-top: 5px;
 }
 
-.content-container .content-box .title h3 {
+.content-container .content-box .title h3, .gameTitles {
     text-transform: uppercase;
     font-size: 1.3em;
     font-weight: 500;
