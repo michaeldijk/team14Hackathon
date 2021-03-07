@@ -372,6 +372,9 @@ nav h3,
         width: 100%;
     }
     
+    #gallery {
+       min-height: auto;
+    }
 }
     
 .nav-active {
