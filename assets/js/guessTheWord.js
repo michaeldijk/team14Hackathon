@@ -52,6 +52,10 @@
         return /^[A-Z]$/i.test(ch);
     }
 
+    document.getElementById("currentWord").addEventListener('click', function(e){ 
+        e.preventDefault();
+   });
+
     // Update the document with the information needed, for the game
     function updateHtmlDisplay() {
         document.getElementById("totalWins").innerText = totalWins; // total wins update
