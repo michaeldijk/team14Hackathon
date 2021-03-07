@@ -286,6 +286,16 @@ nav h3,
     background: linear-gradient(330deg, #fde1bc 50%, #0080005c 50%);
 }
 
+#currentWord, #currentWord:focus {
+    background-color: rgb(255, 255, 255, 0.0);
+    border: none;
+    outline: none;
+}
+
+
+
+/* Footer */
+
 .footer {
     background: #93C992;
     color: #3C3A3A;

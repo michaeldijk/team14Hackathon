@@ -52,6 +52,8 @@
         return /^[A-Z]$/i.test(ch);
     }
 
+    // Created an event listener, so that it removes text entered in the input field, for the game
+    // As the mobile site, did not work, with the game, we had to create a text input field instead.
     document.getElementById("currentWord").addEventListener('click', function(e){ 
         e.preventDefault();
    });
