@@ -96,11 +96,12 @@ nav h3,
 }
 
 .fixed-bg-text {
-    padding-top: 250px;
+    padding-top: 150px;
 }
 
 .fixed-bg-text h1 {
-    font-family: 'Oi', cursive;
+    font-family: cursive;
+    font-size: 55px;
     letter-spacing: 5px;
 }
 
@@ -284,8 +285,6 @@ nav h3,
     outline: none;
 }
 
-
-
 /* Footer */
 
 .footer {
@@ -347,6 +346,10 @@ nav h3,
     body,html {
         overflow-x: hidden;
         position: relative;
+    }
+
+    .fixed-bg-text h1 {
+        font-size: 40px;
     }
 
     .nav-links {
