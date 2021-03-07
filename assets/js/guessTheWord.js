@@ -56,7 +56,7 @@
     function updateHtmlDisplay() {
         document.getElementById("totalWins").innerText = totalWins; // total wins update
         document.getElementById("wordHint").innerText = wordHint; // Word hint update
-        document.getElementById("currentWord").innerText = wordToGuess.join(""); // Guessing word update
+        document.getElementById("currentWord").value = wordToGuess.join(""); // Guessing word update
         document.getElementById("remainingGuesses").innerText = numbersGuessed; // Number of guesses done
         document.getElementById("guessedLetters").innerText = lettersGuessed.join(" "); // Adding space between letters guessed
     }
