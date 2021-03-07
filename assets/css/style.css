@@ -12,10 +12,6 @@ html {
     scroll-behavior: smooth;
 }
 
-section {
-    min-height: 100vh;
-}
-
 /* Navigation Bar */
 nav {
     display: flex;
@@ -265,7 +261,6 @@ nav h3,
 /* Carousel Section */
 #gallery {
     background: linear-gradient(150deg, #fde1bc 50%, #0080005c 50%);
-    min-height: auto;
 }
 
 #carouselExampleFade {
