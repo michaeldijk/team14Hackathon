@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oi&family=Open+Sans+Condensed:ital,wght@0,700;1,300&family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 /* General */
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -281,6 +285,16 @@ nav h3,
 #game {
     background: linear-gradient(330deg, #fde1bc 50%, #0080005c 50%);
 }
+
+#currentWord, #currentWord:focus {
+    background-color: rgb(255, 255, 255, 0.0);
+    border: none;
+    outline: none;
+}
+
+
+
+/* Footer */
 
 .footer {
     background: #93C992;
