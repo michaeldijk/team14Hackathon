@@ -17,7 +17,6 @@ section {
 }
 
 /* Navigation Bar */
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -31,7 +30,7 @@ nav {
 
 .logo img {
     width: 30px;
-    margin-right: 1rem;
+    margin-right: 16px;
     cursor: pointer;
 }
 
@@ -106,7 +105,7 @@ nav h3,
 
 .fixed-bg-text h1 {
     font-family: 'Oi', cursive;
-    letter-spacing: .3rem;
+    letter-spacing: 5px;
 }
 
 .fixed-bg-text h2 {
@@ -120,7 +119,7 @@ nav h3,
     width: 100%;
     z-index: 1;
     height: 100vh;
-    padding: 5rem 0;
+    padding: 80px 0;
 }
 
 #fixed-wrap {
@@ -158,10 +157,6 @@ nav h3,
 }
 
 .hero-text {
-    /* margin-top: 100px;
-    margin-bottom: 100px; */
-    /* Removed margins, and added padding, so that we can colour the background with a div, and not have white space 
-    Michael */
     padding: 100px 0 100px 0;
 }
 
@@ -173,52 +168,7 @@ nav h3,
     color: #14290a;
 }
 
-/* Carousel Section */
-#gallery {
-    background: linear-gradient(150deg, #fde1bc 50%, #0080005c 50%);
-}
-
-#carouselExampleFade {
-    margin: 0 auto;
-    width: 70%;
-}
-    
-.carousel-inner {
-    max-height: 50rem !important;
-}
-
-.footer {
-    background: #93C992;
-    color: #3C3A3A;
-}
-.footer .social-media p a {
-    border: 1px solid #3C3A3A;
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    margin-right: 4px;
-    text-decoration: none;
-    color: #3C3A3A;
-    font-size: 20px;
-}
-.footer .social-media p a:hover {
-    color: #FCDAAF;
-    border: 1px solid #FCDAAF;
-}
-
-.copyright a {
-    text-transform: none;
-    color: #fff;
-}
-
-.copyright p {
-    color: #fff;
-}
-
-/*---Bootsrap Mobil Gutter Fix---*/
-
-/* Added padding to this, so that the container does not have any
-Michael */
+/* Bootsrap Mobil Gutter Fix */
 .row, .container-fluid {
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -316,10 +266,54 @@ Michael */
     font-size: 1.2em;
 }
 
+/* Carousel Section */
+#gallery {
+    background: linear-gradient(150deg, #fde1bc 50%, #0080005c 50%);
+}
+
+#carouselExampleFade {
+    margin: 0 auto;
+    width: 70%;
+}
+    
+.carousel-inner {
+    max-height: 800px !important;
+}
+
 /* Game */
 
 #game {
     background: linear-gradient(330deg, #fde1bc 50%, #0080005c 50%);
+}
+
+.footer {
+    background: #93C992;
+    color: #3C3A3A;
+}
+
+.footer .social-media p a {
+    border: 1px solid #3C3A3A;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: #3C3A3A;
+    font-size: 20px;
+}
+
+.footer .social-media p a:hover {
+    color: #FCDAAF;
+    border: 1px solid #FCDAAF;
+}
+
+.copyright a {
+    text-transform: none;
+    color: #fff;
+}
+
+.copyright p {
+    color: #fff;
 }
 
 @media screen and (min-width: 1400px) {
