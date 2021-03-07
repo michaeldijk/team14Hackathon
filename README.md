@@ -76,10 +76,10 @@ There is a warning about ES6 so it is solved by putting /*jshint esversion: 6 */
 [No warnings or erros](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/hideNavscript.png)
 
 ## CHALLENGES & SOLUTIONS
---General--
+--General--<br>
 We only have less than a week to work on the project. There are 6 people in the team but we do not know each other and we all have life apart from coding so it is not easy to have a meeting with everyone or allocate the same amount of tasks on each person. Therefore, we decide the rule for the meeting that if a few people available, then, we go ahead a meeting and someone on a meeting lead it and someone takes a note. Then, whatever discussed in the meeting is passed on the team slack. Slack is our main communication tool and GitHub is our main tool to keep the tasks. We also help out the others in case anyone isn’t available to do allocated tasks. Keeping clear rules and following them make the project going on. 
 
---Technical--
+--Technical--<br>
 **Not able to play the game on mobile devices**<br>
 We solved this by creating an text input field, with javascript overriding defualt, and then styling the field, to not look like an input field
 
@@ -90,11 +90,11 @@ We solved this by creating an text input field, with javascript overriding defua
 The website is deployed in [GitHub](https://github.com/) as it can host open-source projects of HTML, CSS, and JavaScript.
 
 ## ACKNOWLEDGEMENTS
-We would like to thank our mentor, Sue Holder, who go through the project with us and give some valuable advices to achieve the project
+We would like to thank our mentor, **Sue Holder**, who go through the project with us and give some valuable advices to achieve the project
 
 ## COMMENT FROM EACH MEMBER
 -  Michael Dijk: I was a bit stressed out in the beginning, as we didn't know how to attack the challenge, and how we could get the best out of the team, as working in a collaborative manner. We stuck our heads together, and, we made a good effort, in the time we had available, and as such, made a great project, and got to know each other also a little bit, in terms of coding, how to make use of each others skills and time. I have thoroughly enjoyed this experience, and working with everyone in the team. Thank you, for working together with me, in making this project great.
--  Henrique Peroni:
+-  Henrique Peroni: It was my first Hackathon, so it was my first time coding with a team. What a great challenge, like anything in life, it was hard in the beginning, but with a great team, we got through it with excellence. With this experience, I have a taste of how is to work in a company with other Software Developers. It was a pleasure guys, thank you all and I'm looking forward to the next one.
 -  Stefan D Yordanov:
--  Szilvia Gombarovics:
+-  Szilvia Gombarovics: This was my first team project and admittedly I was a bit confused in the beginning, but I got a lot of help, met lovely people and was very happy to be part of the team. This was challenging and I learned a lot, I can definitely see the benefit of this exercise and would love to participate in future ones. Thank you to everyone in the team and our mentor Sue.
 -  Toto Tanaka: It was my first team project, and I wasn’t sure how it was going to be at the beginning. We were just a group of strangers but quickly got to know each other very well and worked together brilliantly in such a short period of time. I’m glad to be in this team and would like to say “Thank you” to everyone in the team for the great work as well as to our mentor, Sue, for her support through the project. 
