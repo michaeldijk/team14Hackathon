@@ -12,7 +12,7 @@ The live website is available [HERE](https://michaeldijk.github.io/team14Hackath
 St Patrick’s Day in 2021 is very different to other years. We are not allowed to celebrate the day going to see a parade, gathering with families and friends so we create this website to help them to celebrate the day and to give them the atmosphere of the special day.
 
 ## OWNER
-Member of The Blarney Bunch (Michael Dijk, Henrique Peroni, Stefan D Yordanov, Szilvia Gombarovics, Tashi Sk, Toto Tanaka). Our goal is to create a website that gives users a same feeling about St Patrick’s Day as every other years.<br>
+Member of The Blarney Bunch (Michael Dijk, Henrique Peroni, Stefan D Yordanov, Szilvia Gombarovics, Toto Tanaka). Our goal is to create a website that gives users a same feeling about St Patrick’s Day as every other years.<br>
 We are in the different stage of learning in Code Institute, however we all learned HTML, CSS and Javascript, and use those technologies to build the website. 
 Each of us have different knowledges and techniques so we put those from each individual and put together. 
 
@@ -40,7 +40,7 @@ Here are the wireframes of mobile and desktop sizes.
 - [Wireframe: Desktop Size](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/st-patricks-day-desktop.png)
 
 ### Surface Plane
-Colours of Irish flag (Green, White, Gold) are imaged. Green is used in Header & Footer, and light green and light gold are used on About, Gallery and Game sections to have the onsistency on image of the website.
+Colours of Irish flag (Green, White, Gold) are imaged. Green is used in Header & Footer, and light green and light gold are used on About, Gallery and Game sections to have the consistency on image of the website.
 
 ## FEATURES
 - Created with **HTML5**, **CSS3** and **JavaScript**
@@ -55,10 +55,33 @@ Colours of Irish flag (Green, White, Gold) are imaged. Green is used in Header &
 -  [GitHub](https://github.com/) for online version control, keeping the files, documents and deploying the website
 
 ## TESTING
-<!--- If we have time --->
+### Html 
+A code validation test is carried out by using [W3C Markup Validation Service](https://validator.w3.org/), which is a validator by the World Wide Web Consortium that allows checking HTML and XHTML documents for well-formed markup, to check any warnings and errors.<br>
+
+[No warnings or erros](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/html.png) 
+### Css
+A code validation test is carried out by using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/), which is a validator by the World Wide Web Consortium that allows checking Cascading Style Sheets, to make sure that CSS complies with the standards set by the World Wide Web Consortium<br>
+
+[No warnings or erros](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/css.png)
+
+### Javascript
+A code validation test is carried out by using [JSHint](https://jshint.com/), which is a static code analysis tool used in software development for checking if JavaScript source code complies with coding rules<br>
+
+There is a warning about ES6 so it is solved by putting /*jshint esversion: 6 */ on the js files. There are a few missing semicolons and 1 undefined value and these are solved by adding semicolons and defining a value<br>
+
+`guessTheWord.js`:
+[No warnings or erros](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/guessTheWord.png)
+
+`hideNavscript.js`:
+[No warnings or erros](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/hideNavscript.png)
 
 ## CHALLENGES & SOLUTIONS
-We only have a few days to work on the project. There are 6 people in the team but we do not know each other and we all have life apart from coding so it is not easy to have a meeting with everyone or allocate the same amount of tasks on each person. Therefore, we decide the rule for the meeting that if a few people available, then, we go ahead a meeting and someone on a meeting lead it and someone takes a note. Then, whatever discussed in the meeting is passed on the team slack. Slack is our main communication tool and GitHub is our main tool to keep the tasks. We also help out the others in case anyone isn’t available to do allocated tasks. Keeping clear rules and following them make the project going on.     
+--General--
+We only have less than a week to work on the project. There are 6 people in the team but we do not know each other and we all have life apart from coding so it is not easy to have a meeting with everyone or allocate the same amount of tasks on each person. Therefore, we decide the rule for the meeting that if a few people available, then, we go ahead a meeting and someone on a meeting lead it and someone takes a note. Then, whatever discussed in the meeting is passed on the team slack. Slack is our main communication tool and GitHub is our main tool to keep the tasks. We also help out the others in case anyone isn’t available to do allocated tasks. Keeping clear rules and following them make the project going on. 
+
+--Technical--
+**Not able to play the game on mobile devices**<br>
+We solved this by creating an text input field, with javascript overriding defualt, and then styling the field, to not look like an input field
 
 ## VERSION CONTROL
 [Git](https://git-scm.com/) as a local repository and [GitHub](https://github.com/) as a remote repository are used for the project.
@@ -67,11 +90,11 @@ We only have a few days to work on the project. There are 6 people in the team b
 The website is deployed in [GitHub](https://github.com/) as it can host open-source projects of HTML, CSS, and JavaScript.
 
 ## ACKNOWLEDGEMENTS
+We would like to thank our mentor, Sue Holder, who go through the project with us and give some valuable advices to achieve the project
 
 ## COMMENT FROM EACH MEMBER
--  Michael Dijk:
+-  Michael Dijk: I was a bit stressed out in the beginning, as we didn't know how to attack the challenge, and how we could get the best out of the team, as working in a collaborative manner. We stuck our heads together, and, we made a good effort, in the time we had available, and as such, made a great project, and got to know each other also a little bit, in terms of coding, how to make use of each others skills and time. I have thoroughly enjoyed this experience, and working with everyone in the team. Thank you, for working together with me, in making this project great.
 -  Henrique Peroni:
 -  Stefan D Yordanov:
 -  Szilvia Gombarovics:
--  Tashi Sk:
--  Toto Tanaka:
+-  Toto Tanaka: It was my first team project, and I wasn’t sure how it was going to be at the beginning. We were just a group of strangers but quickly got to know each other very well and worked together brilliantly in such a short period of time. I’m glad to be in this team and would like to say “Thank you” to everyone in the team for the great work as well as to our mentor, Sue, for her support through the project. 
