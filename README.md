@@ -5,7 +5,6 @@
 This is a website for **Hackathon Mar 2021** in [Code Institute](https://codeinstitute.net/) created by **The Blarney Bunch** team.<br>
 The live website is available [HERE](https://michaeldijk.github.io/team14Hackathon/).
 
-<!--- Mock up image goes here --->
 ![image](https://github.com/michaeldijk/team14Hackathon/blob/master/assets/documents/mock-up.png)
 
 ## USERS
@@ -81,7 +80,7 @@ We only have less than a week to work on the project. There are 6 people in the 
 
 --Technical--<br>
 **Not able to play the game on mobile devices**<br>
-We solved this by creating an text input field, with javascript overriding defualt, and then styling the field, to not look like an input field
+We solved this by creating an text input field, with javascript overriding default, and then styling the field, to not look like an input field
 
 ## VERSION CONTROL
 [Git](https://git-scm.com/) as a local repository and [GitHub](https://github.com/) as a remote repository are used for the project.
@@ -95,6 +94,6 @@ We would like to thank our mentor, **Sue Holder**, who go through the project wi
 ## COMMENT FROM EACH MEMBER
 -  Michael Dijk: I was a bit stressed out in the beginning, as we didn't know how to attack the challenge, and how we could get the best out of the team, as working in a collaborative manner. We stuck our heads together, and, we made a good effort, in the time we had available, and as such, made a great project, and got to know each other also a little bit, in terms of coding, how to make use of each others skills and time. I have thoroughly enjoyed this experience, and working with everyone in the team. Thank you, for working together with me, in making this project great.
 -  Henrique Peroni: It was my first Hackathon, so it was my first time coding with a team. What a great challenge, like anything in life, it was hard in the beginning, but with a great team, we got through it with excellence. With this experience, I have a taste of how is to work in a company with other Software Developers. It was a pleasure guys, thank you all and I'm looking forward to the next one.
--  Stefan D Yordanov:
+-  Stefan D Yordanov:　First Hackathon ever and it certainly won't be the last. Had a great time, learned a lot and met nice people. We did a great job, had fun and managed to complete the task. Hope we can do it again. Looking forward to the next one.
 -  Szilvia Gombarovics: This was my first team project and admittedly I was a bit confused in the beginning, but I got a lot of help, met lovely people and was very happy to be part of the team. This was challenging and I learned a lot, I can definitely see the benefit of this exercise and would love to participate in future ones. Thank you to everyone in the team and our mentor Sue.
 -  Toto Tanaka: It was my first team project, and I wasn’t sure how it was going to be at the beginning. We were just a group of strangers but quickly got to know each other very well and worked together brilliantly in such a short period of time. I’m glad to be in this team and would like to say “Thank you” to everyone in the team for the great work as well as to our mentor, Sue, for her support through the project. 
