@@ -1,3 +1,9 @@
+// Bootstrap function to initialize Tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
 const navSlide = () => {
     const burguer = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');

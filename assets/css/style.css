@@ -91,9 +91,9 @@ nav h3,
     z-index: 3;
 }
 
-#back-to-top-btn:hover, #back-to-top-btn:focus {
+/* #back-to-top-btn:hover, #back-to-top-btn:focus {
     color: #14290a;  
-}
+} */
 
 .fixed-bg-text {
     padding-top: 150px;
