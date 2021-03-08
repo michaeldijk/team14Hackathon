@@ -1,9 +1,3 @@
-// Bootstrap function to initialize Tooltips
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-})
-
 // Burguer Navigation bar
 // Burguer menu inspiration from: https://www.youtube.com/watch?v=gXkqy0b4M5g
 const navSlide = () => {
